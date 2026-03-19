@@ -1,0 +1,1 @@
+# landingpage_card_hardware
