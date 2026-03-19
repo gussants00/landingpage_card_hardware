@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Card Hardware</title>
+</head>
+<body>
+    <header>
+        <div class="logo"> AMD<span>RYZEN</span></div>
+        <nav class="navbar">
+            <ul>
+                <li>Processadores</li>
+                <li>Placa de Vídeo</li>
+                <li>Suporte</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="card-container">
+        <div class="card-info">
+            <img src="IMAGE/processador-amd-ryzen-5-5600gt-36ghz-46ghz-turbo-6-cores-12-threads-cooler-wraith-stealth-am4-100-100001488box_186129.jpg" alt="Processador Ryzen 5 5600gt">
+            <h1>Ryzen 5 5600gt</h1>
+            <p>Alta performance com gráficos integrados</p>
+            <ul id="lista-specs"></ul>
+            <button>Ver Detalhes</button>
+        </div>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <!-- <h2 id="modal-title"></h2> <hr> -->
+            <div id="modal-specs"></div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
